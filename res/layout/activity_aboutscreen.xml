@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Aboutscreen" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="#fff"
+        android:ems="13"
+        android:gravity="center"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/bBack"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#fff"
+        android:text="@string/Start" />
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_alignBaseline="@+id/bTutorial"
+        android:layout_alignBottom="@+id/bTutorial"
+        android:layout_alignLeft="@+id/bStart"
+        android:background="#fff"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/bTutorial"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_alignRight="@+id/bStart"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="120dp"
+        android:background="#fff"
+        android:text="@string/Tutorial" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+     >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#fff"
+        android:text="@string/fast" />
+
+    <Button
+        android:background="#fff"
+        android:id="@+id/Button01"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/slow" />
+
+</LinearLayout>
